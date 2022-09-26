@@ -1,0 +1,57 @@
+/*Importación del tipo de letra Roboto de Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/*todos los elementos dentro del body heredan el tipo de letra roboto*/
+body{
+  font-family: 'Roboto', sans-serif; /*Tipo del letra Roboto*/
+}
+.logo img {
+    
+    display: block;
+    margin: auto;/*clase logo que aplica ancho y alto de 192px al logo*/
+   
+
+
+  }
+  div{
+    border: 2px   solid  #000;
+    padding: 9px;
+  }
+  h1{
+    text-align: center;
+  }
+#menu { /*id menu que apunta al atributo id declarado en la etiqueta a*/
+  background-color: #a7db53; /*fondo del elemento color azul*/
+  color: #fff;               /*texto color blanco*/
+  padding: 8px;              /*relleno o espaciado interno*/
+  }
+  
+section img{ /*selector descendente que apunta a las imagenes dentro del section*/
+  width: 200px;
+  height: 200px;
+  margin-top: 12px; /*Margen externo superior*/
+  }
+p{          /*todos los elementos p reciben el mismo estilo */
+  background-color: #a7db53;
+  color: #fff;
+  padding: 16px;
+}
+ul{
+  background-color: #a7db53;
+  color: #fff;
+  padding: 16px;
+}
+p span{ /*selector descendente que apunta al span dentro del elemento p*/
+  border: 1px solid #a7db53;     /*borde solido blanco*/
+  border-radius:4px;         /*borde de esquinas redondas*/
+  font-weight: bold;         /*texto en negrilla*/
+  padding: 4px; 
+
+}
+p{
+  text-align: center;
+}
+}
+div{
+  text-align: center;
+}
